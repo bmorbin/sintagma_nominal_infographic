@@ -28,12 +28,12 @@
                 <div style="flex: 1 1 50%">
                     <img src="images/pássaro verde.png" width="100%" style="object-fit: contain; max-height: 140px; margin-top: 5px; mix-blend-mode: multiply;padding:5px; object-position: right;padding-right: 20px">
                 </div>
-                <div style="flex: 1 1 50%">
+                <div style="flex: 1 1 50%; justify-content: start; display: flex;">
                     <a data-bs-toggle="offcanvas" href="#offcanvasLocucaoAdjetiva" role="button" aria-controls="offcanvasLocucaoAdjetiva">
                         <img id="img-button" src="images/Locução adjetiva.png" width="100%" style="object-fit: contain; max-height: 180px; object-position: left;">
                     </a>
                 </div>
-                <div style="flex: 1 1 50%">
+                <div style="flex: 1 1 50%; justify-content: end; display: flex;">
                     <a data-bs-toggle="offcanvas" href="#offcanvasAdjetivo" role="button" aria-controls="offcanvasAdjetivo">
                         <img id="img-button" src="images/Adjetivo.png" width="100%" style="object-fit: contain; max-height: 180px; object-position: right;">
                     </a>
@@ -44,12 +44,12 @@
                 <div style="flex: 1 1 50%">
                     <img src="images/pássaro laranja.png" width="100%" style="object-fit: contain; max-height: 140px; margin-top: 5px; mix-blend-mode: multiply;padding:5px; object-position: right;padding-right: 40px">
                 </div>
-                <div style="flex: 1 1 50%">
+                <div style="flex: 1 1 50%; justify-content: start; display: flex;">
                     <a data-bs-toggle="offcanvas" href="#offcanvasArtigo" role="button" aria-controls="offcanvasArtigo">
                         <img id="img-button" src="images/Artigo.png" width="100%" style="object-fit: contain; max-height: 180px; object-position: left;">
                     </a>
                 </div>
-                <div style="flex: 1 1 50%">
+                <div style="flex: 1 1 50%; justify-content: end; display: flex;">
                     <a data-bs-toggle="offcanvas" href="#offcanvasNumeral" role="button" aria-controls="offcanvasNumeral">
                         <img id="img-button" src="images/Numeral.png" width="100%" style="object-fit: contain; max-height: 180px; object-position: right;">
                     </a>
@@ -60,7 +60,7 @@
                 <div style="flex: 1 1 50%">
                     <img src="images/pássaro roxo.png" width="100%" style="object-fit: contain; max-height: 140px; margin-top: 5px; mix-blend-mode: multiply;padding:5px; object-position: right;padding-right: 50px">
                 </div>
-                <div style="flex: 1 1 50%">
+                <div style="flex: 1 1 50%; justify-content: start; display: flex;">
                     <a data-bs-toggle="offcanvas" href="#offcanvasPronomeAdjetivo" role="button" aria-controls="offcanvasPronomeAdjetivo">
                         <img id="img-button" src="images/Pronome adjetivo.png" width="100%" style="object-fit: contain; max-height: 180px; object-position: left;">
                     </a>
@@ -75,28 +75,129 @@
     </div>
 
     <div class="offcanvas container-card" tabindex="-1" id="offcanvasLocucaoAdjetiva">
-        <img src="images/Pop-ups site interativo/Locução adjetiva painel.png">
+        <div style="width: 100%; position: fixed;   display: flex;   justify-content: end;   padding: 15px;">
+            <div class="close-container" data-bs-dismiss="offcanvas" aria-label="Close">
+                <div class="leftright"></div>
+                <div class="rightleft"></div>
+                <label class="close">voltar</label>
+            </div>
+        </div>
+        <img class="card-wide" src="images/Pop-ups site interativo/Locução adjetiva painel.png">
+        <img class="card-long" src="images/Pop-ups site interativo/Arquivos para celular/Locução adjetiva celular.png">
     </div>
 
     <div class="offcanvas container-card" tabindex="-1" id="offcanvasAdjetivo">
-        <img src="images/Pop-ups site interativo/Adjetivo painel.png">
+        <div style="width: 100%; position: fixed;   display: flex;   justify-content: end;   padding: 15px;">
+            <div class="close-container" data-bs-dismiss="offcanvas" aria-label="Close">
+                <div class="leftright"></div>
+                <div class="rightleft"></div>
+                <label class="close">voltar</label>
+            </div>
+        </div>
+        <img class="card-wide" src="images/Pop-ups site interativo/Adjetivo painel.png">
+        <img class="card-long" src="images/Pop-ups site interativo/Arquivos para celular/Adjetivo celular.png">
     </div>
 
     <div class="offcanvas container-card" tabindex="-1" id="offcanvasArtigo">
-        <img src="images/Pop-ups site interativo/Artigo painel.png">
+        <div style="width: 100%; position: fixed;   display: flex;   justify-content: end;   padding: 15px;">
+            <div class="close-container" data-bs-dismiss="offcanvas" aria-label="Close">
+                <div class="leftright"></div>
+                <div class="rightleft"></div>
+                <label class="close">voltar</label>
+            </div>
+        </div>
+        <img class="card-wide" src="images/Pop-ups site interativo/Artigo painel.png">
+        <img class="card-long" src="images/Pop-ups site interativo/Arquivos para celular/Artigo celular.png">
     </div>
 
     <div class="offcanvas container-card" tabindex="-1" id="offcanvasNumeral">
-        <img src="images/Pop-ups site interativo/Numeral painel.png">
+        <div style="width: 100%; position: fixed;   display: flex;   justify-content: end;   padding: 15px;">
+            <div class="close-container" data-bs-dismiss="offcanvas" aria-label="Close">
+                <div class="leftright"></div>
+                <div class="rightleft"></div>
+                <label class="close">voltar</label>
+            </div>
+        </div>
+        <img class="card-wide" src="images/Pop-ups site interativo/Numeral painel.png">
+        <img class="card-long" src="images/Pop-ups site interativo/Arquivos para celular/Numeral celular.png">
     </div>
 
     <div class="offcanvas container-card" tabindex="-1" id="offcanvasPronomeAdjetivo">
-        <img src="images/Pop-ups site interativo/Pronome adjetivo painel.png">
+        <div style="width: 100%; position: fixed;   display: flex;   justify-content: end;   padding: 15px;">
+            <div class="close-container" data-bs-dismiss="offcanvas" aria-label="Close">
+                <div class="leftright"></div>
+                <div class="rightleft"></div>
+                <label class="close">voltar</label>
+            </div>
+        </div>
+        <img class="card-wide" src="images/Pop-ups site interativo/Pronome adjetivo painel.png">
+        <img class="card-long" src="images/Pop-ups site interativo/Arquivos para celular/Pronome adjetivo celular.png">
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
+
+<style>
+
+    .close-container{
+        position: relative;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+    }
+
+    .close-container:hover{
+        background-color: rgba(46, 46, 46, 0.123);
+    }
+
+    .leftright{
+        height: 4px;
+        width: 35px;
+        position: absolute;
+        margin-top: 15px;
+        background-color: whitesmoke;
+        border-radius: 2px;
+        transform: rotate(45deg);
+        transition: all .25s ease-in;
+    }
+
+    .rightleft{
+        height: 4px;
+        width: 35px;
+        position: absolute;
+        margin-top: 15px;
+        background-color: whitesmoke;
+        border-radius: 2px;
+        transform: rotate(-45deg);
+        transition: all .25s ease-in;
+    }
+
+    label{
+        color: whitesmoke;
+        font-size: .3em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transition: all .25s ease-in;
+        opacity: 0;
+    }
+    .close{
+        margin: 45px 0 0 5px;
+        position: absolute;
+    }
+
+    .close-container:hover .leftright{
+        transform: rotate(-45deg);
+        background-color: whitesmoke;
+    }
+    .close-container:hover .rightleft{
+        transform: rotate(45deg);
+        background-color: whitesmoke;
+    }
+    .close-container:hover label{
+        opacity: 1;
+    }
+</style>
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
@@ -237,9 +338,16 @@
         background-color: transparent;
         max-width: 80vw;
         overflow-y: scroll;
-        padding-top:5px;
+        padding-top: 5px !important;
         max-height: 100vh;
         min-height: fit-content;
+    }
+
+    .card-wide{
+        display: flex;
+    }
+    .card-long{
+        display: none;
     }
 
     #img-button:hover{
@@ -252,6 +360,13 @@
         }
         .container-card{
             padding-top:50px;
+        }
+
+        .card-wide{
+            display: none; 
+        }
+        .card-long{
+            display: flex;
         }
     }
     @media (max-width: 590px) {
